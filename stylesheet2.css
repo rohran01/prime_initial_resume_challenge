@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #FFFFE5, beige;
+    font-family: "Helvetica", sans-serif;
+}
+header {
+    background-color: #062424;
+    color: #dfa900;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-left: 30px;
+    z-index: 1;
+}
+
+h3 {
+    margin-top: -6px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+    font-stretch: expanded;
+}
+aside {
+    background-color: #381700;
+    width: 60px;
+    height: 1000px;
+    position: fixed;
+    top: 0;
+    left: 20px;
+    z-index: 0;
+}
+.summary {
+    background-color: #009ca9;
+    color: #381700;
+    z-index: -1;
+    margin-top: 164px;
+    margin-left: 30px;
+    padding-left: 60px;
+}   
+.experience {
+    background-color: #009ca9;
+    color: #381700;
+    z-index: -1;
+    margin-left: 30px;
+    padding-left: 60px;
+}
+.education {
+    background-color: #009ca9;
+    color: #381700;
+    z-index: -1;
+    margin-left: 30px;
+    padding-left: 60px;
+}
+.honors {
+    background-color: #009ca9;
+    color: #381700;
+    z-index: -1;
+    margin-left: 30px;
+    padding-left: 60px;
+}
+img {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    box-shadow: 5px 5px 15px 0 #dfa900;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+p {
+    font-size: 14px;
+}
+ul {
+    padding-bottom: 20px;
+}
+.details {
+    margin-left: 12px;
+}
